@@ -818,3 +818,157 @@ footer p {
 
   
 }
+/* General Mobile Styles */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        padding: 1rem 1.5rem;
+    }
+    
+    .navbar .logo h1 {
+        font-size: 2rem; /* Smaller logo */
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navbar nav a {
+        font-size: 1rem; /* Smaller nav links */
+        margin-left: 1rem;
+    }
+
+    /* Hero Section */
+    .home {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .home-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+    }
+
+    /* Menu Section */
+    .menu {
+        padding: 60px 20px; /* Adjust padding */
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .menu-description {
+        font-size: 1rem;
+    }
+
+    .menu-items {
+        grid-template-columns: 1fr; /* Stack menu items vertically on mobile */
+    }
+
+    .menu-item {
+        margin-bottom: 20px;
+    }
+
+    /* Reservation Form */
+    .reservation-form {
+        padding: 4rem 1rem;
+    }
+
+    .form-container {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .form-title {
+        font-size: 2rem;
+    }
+
+    /* Footer Section */
+    footer {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    /* Contact Section */
+    .contact {
+        padding: 40px 10px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-info, .contact-form-container {
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    .contact-info h2, .contact-form-container h3 {
+        font-size: 1.8rem;
+    }
+
+    .contact-form input, .contact-form textarea {
+        padding: 12px;
+    }
+
+    .contact-form button {
+        padding: 12px;
+    }
+}
+
+/* Very Small Devices (Extra Mobile) */
+@media (max-width: 480px) {
+    /* Navbar */
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navbar .logo h1 {
+        font-size: 1.8rem; /* Further reduce logo size */
+    }
+
+    .navbar nav a {
+        font-size: 0.9rem; /* Smaller nav links */
+    }
+
+    /* Hero Section */
+    .home-content h2 {
+        font-size: 2rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+
+    /* Menu Section */
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .menu-description {
+        font-size: 0.9rem;
+    }
+
+    /* Menu Items */
+    .menu-items {
+        grid-template-columns: 1fr; /* Stack menu items */
+    }
+
+    .menu-item {
+        padding: 15px;
+    }
+
+    /* Reservation Form */
+    .form-title {
+        font-size: 1.8rem;
+    }
+
+    /* Footer Section */
+    footer {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+}
